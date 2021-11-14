@@ -101,8 +101,14 @@ header {
     height: 300px;
 }
 
-.about-me>h3 {
-    text-decoration: underline dashed;
+.about-me>h3>span {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.cancel-btn {
+    background-color: #bccfcd;
 }
 
 .about-me>p {
@@ -293,5 +299,18 @@ footer {
         background: linear-gradient(to right, #719650, #46c7a7);
         border-bottom-right-radius: inherit;
         border-bottom: 8px solid #bccfcd;
+    }
+}
+
+@media (max-width: 380px) {
+    .about-me {
+        width: 320px;
+        font-size: 12px;
+    }
+    #open-list {
+        height: 300px;
+    }
+    .about-me>p {
+        width: 240px;
     }
 }
