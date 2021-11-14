@@ -97,18 +97,15 @@ header {
     font-family: 'Varela Round';
 }
 
-.about-me:active {
-    height: 300px;
-}
-
 .about-me>h3>span {
     display: block;
     text-decoration: none;
     font-size: 12px;
 }
 
-.cancel-btn {
+.cancel-but {
     background-color: #bccfcd;
+    border: none;
 }
 
 .about-me>p {
